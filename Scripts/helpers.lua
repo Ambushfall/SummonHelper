@@ -31,6 +31,3 @@ end
 function MaterialHandler(input)
     return Sprintf("Material_%s_C", input)
 end
-
-
-FIF = UEHelpers.fif
