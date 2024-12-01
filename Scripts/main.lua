@@ -14,8 +14,8 @@ local table = parser.Csv_to_lua_table_from_path(csvPath)
 
 Printd("SummonHelper active")
 
-RegisterConsoleCommandHandler("SummonHelper", function(_, Parameters, Ar)
-    if #Parameters ~= 1 then
+function SummonHelper(_, Parameters, Ar)
+    if #Parameters < 1 then
         Ar:Log(("Help:"):delim())
         Ar:Log("Choose a type in the params to see available options.")
         Ar:Log("Or use it to search for weapon names.")
@@ -27,26 +27,33 @@ RegisterConsoleCommandHandler("SummonHelper", function(_, Parameters, Ar)
         end
     end
 
-    if #Parameters == 1 then
-        for _, value in ipairs(Parameters) do
-            for _, v in pairs(table) do
-                if v.FName:lower() == value:lower() then
-                    Ar:Log(Sprintf("Match found for: %s", value))
-                    Ar:Log(Sprintf("Type: %s", v.Type))
-                    Ar:Log(Sprintf("FName: %s", v.FName))
-                    Ar:Log(Sprintf("summonCommand: %s", v.summonCommand))
-                    Ar:Log(Sprintd("Summoning!"))
-                    Console(v.summonCommand)
-                    return true
-                end
+    if #Parameters >= 1 then
+        local value, amt = Parameters[1], Parameters[2]
 
-                if v.Type:lower():find(value:lower()) then
-                    Ar:Log(Sprintf("%s", v.FName))
-                elseif v.FName:lower():find(value:lower()) then
-                    Ar:Log(Sprintf("%s", v.FName))
+        for _, v in pairs(table) do
+            if v.FName:lower() == value:lower() then
+                local cmd = v.summonCommand
+                if amt ~= nil then
+                    cmd = string.format(cmd .. " 1 %s",amt)
                 end
+                Ar:Log(Sprintf("Match found for: %s", value))
+                Ar:Log(Sprintf("Type: %s", v.Type))
+                Ar:Log(Sprintf("FName: %s", v.FName))
+                Ar:Log(Sprintf("summonCommand: %s", v.summonCommand))
+                Ar:Log(Sprintd("Summoning!"))
+                Console(cmd)
+                return true
+            end
+
+            if v.Type:lower():find(value:lower()) then
+                Ar:Log(Sprintf("%s", v.FName))
+            elseif v.FName:lower():find(value:lower()) then
+                Ar:Log(Sprintf("%s", v.FName))
             end
         end
     end
     return true
-end)
+end
+
+RegisterConsoleCommandHandler("SummonHelper", SummonHelper)
+RegisterConsoleCommandHandler("summonhelper", SummonHelper)
