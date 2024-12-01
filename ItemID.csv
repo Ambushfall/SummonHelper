@@ -953,48 +953,48 @@ Skill Cooldown,Prism Fragment,RelicFragment_SkillCooldown_C,summon /Game/World_B
 Skill Duration,Prism Fragment,RelicFragment_SkillDuration_C,summon /Game/World_Base/Items/Gems/Ranged/Intellect/RelicFragment_SkillDuration.RelicFragment_SkillDuration_C 1 1 31|
 Use Speed,Prism Fragment,RelicFragment_ConsumableSpeed_C,summon /Game/World_Base/Items/Gems/Ranged/Discipline/RelicFragment_ConsumableSpeed.RelicFragment_ConsumableSpeed_C 1 1 31|
 Consumable Duration,Prism Fragment,RelicFragment_ConsumableDuration_C,summon /Game/World_Base/Items/Gems/Ranged/Discipline/RelicFragment_ConsumableDuration.RelicFragment_ConsumableDuration_C 1 1 31|
-Ammo Reserves,Archetype Trait,Trait_AmmoReserves_C,AddTrait /Game/World_Base/Items/Traits/Archetype/AmmoReserves/Trait_AmmoReserves.Trait_AmmoReserves_C|
-Flash Caster,Archetype Trait,Trait_FlashCaster_C,AddTrait /Game/World_Base/Items/Traits/Archetype/FlashCaster/Trait_FlashCaster.Trait_FlashCaster_C|
-Fortify,Archetype Trait,Trait_Fortify_C,AddTrait /Game/World_Base/Items/Traits/Archetype/Fortify/Trait_Fortify.Trait_Fortify_C|
-Kinship,Archetype Trait,Trait_Kinship_C,AddTrait /Game/World_Base/Items/Traits/Archetype/Kinship/Trait_Kinship.Trait_Kinship_C|
-Longshot,Archetype Trait,Trait_Longshot_C,AddTrait /Game/World_Base/Items/Traits/Archetype/Longshot/Trait_Longshot.Trait_Longshot_C|
-Potency,Archetype Trait,Trait_Potency_C,AddTrait /Game/World_Base/Items/Traits/Archetype/Potency/Trait_Potency.Trait_Potency_C|
-Regrowth,Archetype Trait,Trait_Regrowth_C,AddTrait /Game/World_Base/Items/Traits/Archetype/Regrowth/Trait_Regrowth.Trait_Regrowth_C|
-Strong Back,Archetype Trait,Trait_StrongBack_C,AddTrait /Game/World_Base/Items/Traits/Archetype/StrongBack/Trait_StrongBack.Trait_StrongBack_C|
-Swiftness,Archetype Trait,Trait_Swiftness_C,AddTrait /Game/World_Base/Items/Traits/Archetype/Swiftness/Trait_Swiftness.Trait_Swiftness_C|
-Triage,Archetype Trait,Trait_Triage_C,AddTrait /Game/World_Base/Items/Traits/Archetype/Triage/Trait_Triage.Trait_Triage_C|
-Untouchable,Archetype Trait,Trait_Untouchable_C,AddTrait /Game/World_Base/Items/Traits/Archetype/Untouchable/Trait_Untouchable.Trait_Untouchable_C|
-Affliction,Archetype Trait,Trait_Affliction_C,AddTrait /Game/World_DLC1/Items/Traits/Affliction/Trait_Affliction.Trait_Affliction_C|
-Gifted,Archetype Trait,Trait_Gifted_C,AddTrait /Game/World_DLC2/Items/Archetypes/Invoker/PerksAndTraits/Trait_Gifted.Trait_Gifted_C|
-Barrier,Archetype Trait,Trait_Barrier_C,AddTrait /Game/World_DLC3/Items/Archetypes/Warden/Traits/Trait_Barrier.Trait_Barrier_C|
-Endurance,Core Trait,Trait_Endurance_C,AddTrait /Game/World_Base/Items/Traits/Core/Endurance/Trait_Endurance.Trait_Endurance_C|
-Expertise,Core Trait,Trait_Expertise_C,AddTrait /Game/World_Base/Items/Traits/Core/Expertise/Trait_Expertise.Trait_Expertise_C|
-Spirit,Core Trait,Trait_Spirit_C,AddTrait /Game/World_Base/Items/Traits/Core/Spirit/Trait_Spirit.Trait_Spirit_C|
-Vigor,Core Trait,Trait_Vigor_C,AddTrait /Game/World_Base/Items/Traits/Core/Vigor/Trait_Vigor.Trait_Vigor_C|
-Amplitude,Trait,Trait_Amplitude_C,AddTrait /Game/World_Base/Items/Traits/Archetype/Amplitude/Trait_Amplitude.Trait_Amplitude_C|
-Arcane Strike,Trait,Trait_ArcaneStrike_C,AddTrait /Game/World_Base/Items/Traits/Core/ArcaneStrike/Trait_ArcaneStrike.Trait_ArcaneStrike_C|
-Barkskin,Trait,Trait_Barkskin_C,AddTrait /Game/World_Base/Items/Traits/Core/Barkskin/Trait_Barkskin.Trait_Barkskin_C|
-Blood Bond,Trait,Trait_BloodBond_C,AddTrait /Game/World_Base/Items/Traits/Core/BloodBond/Trait_BloodBond.Trait_BloodBond_C|
-Bloodstream,Trait,Trait_Bloodstream_C,AddTrait /Game/World_Base/Items/Traits/Core/Bloodstream/Trait_Bloodstream.Trait_Bloodstream_C|
-Fitness,Trait,Trait_Fitness_C,AddTrait /Game/World_Base/Items/Traits/Core/Fitness/Trait_Fitness.Trait_Fitness_C|
-Footwork,Trait,Trait_Footwork_C,AddTrait /Game/World_Base/Items/Traits/Core/Footwork/Trait_Footwork.Trait_Footwork_C|
-Glutton,Trait,Trait_Glutton_C,AddTrait /Game/World_Base/Items/Traits/Core/Glutton/Trait_Glutton.Trait_Glutton_C|
-Handling,Trait,Trait_Handling_C,AddTrait /Game/World_Base/Items/Traits/Core/Handling/Trait_Handling.Trait_Handling_C|
-Recovery,Trait,Trait_Recovery_C,AddTrait /Game/World_Base/Items/Traits/Core/Recovery/Trait_Recovery.Trait_Recovery_C|
-Revivalist,Trait,Trait_Revivalist_C,AddTrait /Game/World_Base/Items/Traits/Core/Revivalist/Trait_Revivalist.Trait_Revivalist_C|
-Rugged,Trait,Trait_Rugged_C,AddTrait /Game/World_Base/Items/Traits/Core/Rugged/Trait_Rugged.Trait_Rugged_C|
-Scholar,Trait,Trait_Scholar_C,AddTrait /Game/World_Base/Items/Traits/Core/Scholar/Trait_Scholar.Trait_Scholar_C|
-Shadeskin,Trait,Trait_Shadeskin_C,AddTrait /Game/World_Base/Items/Traits/Core/Shadeskin/Trait_Shadeskin.Trait_Shadeskin_C|
-Siphoner,Trait,Trait_Siphoner_C,AddTrait /Game/World_Base/Items/Traits/Core/Siphoner/Trait_Siphoner.Trait_Siphoner_C|
-Resonance,Trait,Trait_Resonance_C,AddTrait /Game/World_Base/Items/Traits/Core/Resonance/Trait_Resonance.Trait_Resonance_C|
-Wayfarer,Trait,Trait_Wayfarer_C,AddTrait /Game/World_Base/Items/Traits/Core/Wayfarer/Trait_Wayfarer.Trait_Wayfarer_C|
-Dark Pact,Trait,Trait_DarkPact_C,AddTrait /Game/World_DLC1/Items/Traits/DarkPact/Trait_DarkPact.Trait_DarkPact_C|
-Resolute,Trait,Trait_Resolute_C,AddTrait /Game/World_DLC2/Items/Traits/Resolute/Trait_Resolute.Trait_Resolute_C|
-Chakra,Trait,Trait_Chakra_C,AddTrait /Game/World_Base/Items/Traits/Core/Chakra/Trait_Chakra.Trait_Chakra_C|
-Leech,Trait,Trait_Leech_C,AddTrait /Game/World_Base/Items/Traits/Core/Leech/Trait_Leech.Trait_Leech_C|
-Insight,Trait,Trait_Insight_C,AddTrait /Game/World_DLC3/Items/Traits/Insight/Trait_Insight.Trait_Insight_C|
-Perception,Trait,Trait_Perception_C,AddTrait /Game/World_DLC3/Items/Traits/Perception/Trait_Perception.Trait_Perception_C|
-Preservation,Trait,Trait_Preservation_C,AddTrait /Game/World_DLC3/Items/Traits/Preservation/Trait_Preservation.Trait_Preservation_C|
+Ammo Reserves,Archetype Trait,Trait_AmmoReserves_C,SummonTrait /Game/World_Base/Items/Traits/Archetype/AmmoReserves/Trait_AmmoReserves.Trait_AmmoReserves_C|
+Flash Caster,Archetype Trait,Trait_FlashCaster_C,SummonTrait /Game/World_Base/Items/Traits/Archetype/FlashCaster/Trait_FlashCaster.Trait_FlashCaster_C|
+Fortify,Archetype Trait,Trait_Fortify_C,SummonTrait /Game/World_Base/Items/Traits/Archetype/Fortify/Trait_Fortify.Trait_Fortify_C|
+Kinship,Archetype Trait,Trait_Kinship_C,SummonTrait /Game/World_Base/Items/Traits/Archetype/Kinship/Trait_Kinship.Trait_Kinship_C|
+Longshot,Archetype Trait,Trait_Longshot_C,SummonTrait /Game/World_Base/Items/Traits/Archetype/Longshot/Trait_Longshot.Trait_Longshot_C|
+Potency,Archetype Trait,Trait_Potency_C,SummonTrait /Game/World_Base/Items/Traits/Archetype/Potency/Trait_Potency.Trait_Potency_C|
+Regrowth,Archetype Trait,Trait_Regrowth_C,SummonTrait /Game/World_Base/Items/Traits/Archetype/Regrowth/Trait_Regrowth.Trait_Regrowth_C|
+Strong Back,Archetype Trait,Trait_StrongBack_C,SummonTrait /Game/World_Base/Items/Traits/Archetype/StrongBack/Trait_StrongBack.Trait_StrongBack_C|
+Swiftness,Archetype Trait,Trait_Swiftness_C,SummonTrait /Game/World_Base/Items/Traits/Archetype/Swiftness/Trait_Swiftness.Trait_Swiftness_C|
+Triage,Archetype Trait,Trait_Triage_C,SummonTrait /Game/World_Base/Items/Traits/Archetype/Triage/Trait_Triage.Trait_Triage_C|
+Untouchable,Archetype Trait,Trait_Untouchable_C,SummonTrait /Game/World_Base/Items/Traits/Archetype/Untouchable/Trait_Untouchable.Trait_Untouchable_C|
+Affliction,Archetype Trait,Trait_Affliction_C,SummonTrait /Game/World_DLC1/Items/Traits/Affliction/Trait_Affliction.Trait_Affliction_C|
+Gifted,Archetype Trait,Trait_Gifted_C,SummonTrait /Game/World_DLC2/Items/Archetypes/Invoker/PerksAndTraits/Trait_Gifted.Trait_Gifted_C|
+Barrier,Archetype Trait,Trait_Barrier_C,SummonTrait /Game/World_DLC3/Items/Archetypes/Warden/Traits/Trait_Barrier.Trait_Barrier_C|
+Endurance,Core Trait,Trait_Endurance_C,SummonTrait /Game/World_Base/Items/Traits/Core/Endurance/Trait_Endurance.Trait_Endurance_C|
+Expertise,Core Trait,Trait_Expertise_C,SummonTrait /Game/World_Base/Items/Traits/Core/Expertise/Trait_Expertise.Trait_Expertise_C|
+Spirit,Core Trait,Trait_Spirit_C,SummonTrait /Game/World_Base/Items/Traits/Core/Spirit/Trait_Spirit.Trait_Spirit_C|
+Vigor,Core Trait,Trait_Vigor_C,SummonTrait /Game/World_Base/Items/Traits/Core/Vigor/Trait_Vigor.Trait_Vigor_C|
+Amplitude,Trait,Trait_Amplitude_C,SummonTrait /Game/World_Base/Items/Traits/Archetype/Amplitude/Trait_Amplitude.Trait_Amplitude_C|
+Arcane Strike,Trait,Trait_ArcaneStrike_C,SummonTrait /Game/World_Base/Items/Traits/Core/ArcaneStrike/Trait_ArcaneStrike.Trait_ArcaneStrike_C|
+Barkskin,Trait,Trait_Barkskin_C,SummonTrait /Game/World_Base/Items/Traits/Core/Barkskin/Trait_Barkskin.Trait_Barkskin_C|
+Blood Bond,Trait,Trait_BloodBond_C,SummonTrait /Game/World_Base/Items/Traits/Core/BloodBond/Trait_BloodBond.Trait_BloodBond_C|
+Bloodstream,Trait,Trait_Bloodstream_C,SummonTrait /Game/World_Base/Items/Traits/Core/Bloodstream/Trait_Bloodstream.Trait_Bloodstream_C|
+Fitness,Trait,Trait_Fitness_C,SummonTrait /Game/World_Base/Items/Traits/Core/Fitness/Trait_Fitness.Trait_Fitness_C|
+Footwork,Trait,Trait_Footwork_C,SummonTrait /Game/World_Base/Items/Traits/Core/Footwork/Trait_Footwork.Trait_Footwork_C|
+Glutton,Trait,Trait_Glutton_C,SummonTrait /Game/World_Base/Items/Traits/Core/Glutton/Trait_Glutton.Trait_Glutton_C|
+Handling,Trait,Trait_Handling_C,SummonTrait /Game/World_Base/Items/Traits/Core/Handling/Trait_Handling.Trait_Handling_C|
+Recovery,Trait,Trait_Recovery_C,SummonTrait /Game/World_Base/Items/Traits/Core/Recovery/Trait_Recovery.Trait_Recovery_C|
+Revivalist,Trait,Trait_Revivalist_C,SummonTrait /Game/World_Base/Items/Traits/Core/Revivalist/Trait_Revivalist.Trait_Revivalist_C|
+Rugged,Trait,Trait_Rugged_C,SummonTrait /Game/World_Base/Items/Traits/Core/Rugged/Trait_Rugged.Trait_Rugged_C|
+Scholar,Trait,Trait_Scholar_C,SummonTrait /Game/World_Base/Items/Traits/Core/Scholar/Trait_Scholar.Trait_Scholar_C|
+Shadeskin,Trait,Trait_Shadeskin_C,SummonTrait /Game/World_Base/Items/Traits/Core/Shadeskin/Trait_Shadeskin.Trait_Shadeskin_C|
+Siphoner,Trait,Trait_Siphoner_C,SummonTrait /Game/World_Base/Items/Traits/Core/Siphoner/Trait_Siphoner.Trait_Siphoner_C|
+Resonance,Trait,Trait_Resonance_C,SummonTrait /Game/World_Base/Items/Traits/Core/Resonance/Trait_Resonance.Trait_Resonance_C|
+Wayfarer,Trait,Trait_Wayfarer_C,SummonTrait /Game/World_Base/Items/Traits/Core/Wayfarer/Trait_Wayfarer.Trait_Wayfarer_C|
+Dark Pact,Trait,Trait_DarkPact_C,SummonTrait /Game/World_DLC1/Items/Traits/DarkPact/Trait_DarkPact.Trait_DarkPact_C|
+Resolute,Trait,Trait_Resolute_C,SummonTrait /Game/World_DLC2/Items/Traits/Resolute/Trait_Resolute.Trait_Resolute_C|
+Chakra,Trait,Trait_Chakra_C,SummonTrait /Game/World_Base/Items/Traits/Core/Chakra/Trait_Chakra.Trait_Chakra_C|
+Leech,Trait,Trait_Leech_C,SummonTrait /Game/World_Base/Items/Traits/Core/Leech/Trait_Leech.Trait_Leech_C|
+Insight,Trait,Trait_Insight_C,SummonTrait /Game/World_DLC3/Items/Traits/Insight/Trait_Insight.Trait_Insight_C|
+Perception,Trait,Trait_Perception_C,SummonTrait /Game/World_DLC3/Items/Traits/Perception/Trait_Perception.Trait_Perception_C|
+Preservation,Trait,Trait_Preservation_C,SummonTrait /Game/World_DLC3/Items/Traits/Preservation/Trait_Preservation.Trait_Preservation_C|
 Cube Shield,Mod,Mod_CubeShield_C,summon /Game/World_Base/Items/Weapons/Handguns/Special/CubeGun/Mod_CubeShield/Mod_CubeShield.Mod_CubeShield_C|
 Chaos Driver,Mod,Mod_ChaosDriver_C,summon /Game/World_Base/Items/Weapons/Handguns/Special/Enigma/Mod_ChaosDriver/Mod_ChaosDriver.Mod_ChaosDriver_C|
 Explosive Shot,Mod,Mod_ExplosiveShot_C,summon /Game/World_Base/Items/Weapons/Handguns/Special/Hellfire/Mod_ExplosiveShot/Mod_ExplosiveShot.Mod_ExplosiveShot_C|

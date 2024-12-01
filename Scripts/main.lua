@@ -7,11 +7,12 @@ local types = { "Ammo", "Long Gun", "Bow", "Handgun", "Melee", "Body", "Gloves",
     "Grenade", "Curative", "Concoction", "Crafting Material", "Special", "Quest Item", "Prism Fragment",
     "Archetype Trait", "Core Trait", "Trait", "Mod", "Skill Trait" }
 
-local csvPath = "./~mods/SummonHelper/ItemID.csv"
+local csvPath = "Mods/SummonHelper/ItemID.csv"
 
 
 local table = parser.Csv_to_lua_table_from_path(csvPath)
 
+Printd("SummonHelper active")
 
 RegisterConsoleCommandHandler("SummonHelper", function(_, Parameters, Ar)
     if #Parameters ~= 1 then
